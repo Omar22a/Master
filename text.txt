@@ -1,0 +1,17 @@
+EXtended Tiny Encryption Algorithm (ou XTEA) est un algorithme de chiffrement par bloc
+connu pour la simplicité de sa description et de son implémentation (généralement quelques
+lignes de codes). Il s’agit d’un réseau de Feistel comprenant un nombre important de tours :
+32. Il fut conçu par David Wheeler et Roger Needham, du laboratoire informatique de
+Cambridge, et présenté au salon Fast Software Encryption en 19941
+
+. Il n'est l'objet d'aucun
+
+brevet.
+Pour plus d'infromation , https://fr.wikipedia.org/wiki/XTEA.
+Objectifs du TP:
+1­ Implémentation de l'algorithme XTEA (clé sur128bit et la taille des blocs en claires sur
+64bit), en entré le programme lie une clé de 128bit(16 octet), et un bloc de 64bit (8octet) et
+donne en sortie le bloc de64bit chiffré. La fonction inverse de déchiffrement doit aussi être
+implémenté. L'implémentation doit être faite en JAVA.
+2­ Extention du chiffrement avec plusieurs modes opératoires pour chiffré un fichier
+quelconque (ECB,CBC, OFB, CTR et XTS).
